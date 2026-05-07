@@ -1,0 +1,30 @@
+{
+  "name": "petpack",
+  "version": "0.1.0",
+  "description": "Install Codex digital pets from a GitHub-backed registry.",
+  "type": "module",
+  "bin": {
+    "petpack": "./bin/petpack.js"
+  },
+  "files": [
+    "bin",
+    "src",
+    "registry",
+    "README.md",
+    "docs"
+  ],
+  "scripts": {
+    "test": "node --test"
+  },
+  "keywords": [
+    "codex",
+    "pets",
+    "cli",
+    "spritesheet"
+  ],
+  "author": "",
+  "license": "MIT",
+  "engines": {
+    "node": ">=18"
+  }
+}

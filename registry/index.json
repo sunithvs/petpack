@@ -1,0 +1,16 @@
+{
+  "version": 1,
+  "pets": [
+    {
+      "id": "abu",
+      "displayName": "Abu",
+      "description": "A tiny Codex digital pet inspired by a moustached purple-shirt character with a patterned cap.",
+      "tags": ["person", "custom", "cap"],
+      "creator": "Petpack",
+      "assets": {
+        "manifest": "https://raw.githubusercontent.com/sunithvs/petpack/main/registry/pets/abu/pet.json",
+        "spritesheet": "https://raw.githubusercontent.com/sunithvs/petpack/main/registry/pets/abu/spritesheet.webp"
+      }
+    }
+  ]
+}
