@@ -11,6 +11,17 @@
         "manifest": "https://raw.githubusercontent.com/sunithvs/petpack/main/registry/pets/abu/pet.json",
         "spritesheet": "https://raw.githubusercontent.com/sunithvs/petpack/main/registry/pets/abu/spritesheet.webp"
       }
+    },
+    {
+      "id": "penaldo",
+      "displayName": "Penaldo",
+      "description": "A tiny Codex pet inspired by Cristiano Ronaldo in a white Madrid-era soccer kit, curious expression, signature suiii celebration pose when idle, and a small soccer ball beside him.",
+      "tags": ["person", "custom", "soccer"],
+      "creator": "FazalulAbid",
+      "assets": {
+        "manifest": "https://raw.githubusercontent.com/FazalulAbid/petpack/main/registry/pets/penaldo/pet.json",
+        "spritesheet": "https://raw.githubusercontent.com/FazalulAbid/petpack/main/registry/pets/penaldo/spritesheet.webp"
+      }
     }
   ]
 }
