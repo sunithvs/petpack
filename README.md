@@ -3,10 +3,10 @@
 Petpack is an npm CLI for installing Codex digital pets from a GitHub-backed registry.
 
 ```bash
-npx petpack list
-npx petpack install firetail
-npx petpack preview firetail
-npx petpack doctor
+npx create-petpack
+npx create-petpack install abu
+npx create-petpack preview abu
+npx create-petpack doctor
 ```
 
 ## How It Works
@@ -28,12 +28,13 @@ $CODEX_HOME/pets/<pet-slug>/
 ## Commands
 
 ```bash
-petpack list
-petpack ls
-petpack install <pet> [--force]
-petpack add <pet> [--force]
-petpack preview <pet>
-petpack doctor
+create-petpack
+create-petpack list
+create-petpack ls
+create-petpack install <pet> [--force]
+create-petpack add <pet> [--force]
+create-petpack preview <pet>
+create-petpack doctor
 ```
 
 ## Registry

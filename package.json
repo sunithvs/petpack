@@ -1,9 +1,10 @@
 {
-  "name": "petpack",
+  "name": "create-petpack",
   "version": "0.1.0",
   "description": "Install Codex digital pets from a GitHub-backed registry.",
   "type": "module",
   "bin": {
+    "create-petpack": "./bin/petpack.js",
     "petpack": "./bin/petpack.js"
   },
   "files": [
@@ -14,7 +15,10 @@
     "docs"
   ],
   "scripts": {
-    "test": "node --test"
+    "test": "node --test",
+    "pack:dry": "npm --cache /private/tmp/petpack-npm-cache pack --dry-run",
+    "publish:npm": "node scripts/publish-npm.js",
+    "publish:otp": "npm --cache /private/tmp/petpack-npm-cache publish --access public"
   },
   "keywords": [
     "codex",
